@@ -1,0 +1,9 @@
+from django.contrib import admin
+from django.urls import path, include
+from textpage import views
+
+urlpatterns = [
+    path("admin/", admin.site.urls),
+    #path("textpage/", include('textpage.urls')),
+    path("", include('textpage.urls')),
+]

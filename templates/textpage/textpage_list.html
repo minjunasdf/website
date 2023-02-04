@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <main>
+    <h1>오건호는 죽었다!</h1>
+  </main>
+  <body>
+    {% if text_list %}
+      <ul>
+        {% for Text in text_list %}
+        <li><a href="{% url 'website:detail' Text.id %}">{{ Text.subject }}</a></li>
+        {% endfor %}
+      </ul>
+    {% else %}
+     <p>등록된 글이 없습니다</p>
+    {% endif %}
+  </body>
+</html>

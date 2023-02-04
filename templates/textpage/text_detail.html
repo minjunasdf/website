@@ -1,0 +1,16 @@
+<h1>{{ text.subject }}</h1>
+
+<div>
+  {{ text.content }}
+</div>
+<dif>
+  ---------------------------------------------------------
+</dif>
+<h5>{{ text.comment_set.count }}개의 댓글이 있습니다</h5>
+<div>
+  <ul>
+    {% for commentef in text.comment_set.all %}
+      <li>{{ commentef.content }}</li>
+    {% endfor %}
+  </ul>
+</div>
