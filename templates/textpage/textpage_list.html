@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html>
-  <main>
-    <h1><center>오건호 바보!</center></h1>
-  </main>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>경북과고 DC</title>
+    <h1>경북과고 DC 비스무리한 무언가이올시다...</h1>
+  </head>
+  <header>
+    <div id="logo">
+      <a href=""><h1>경북과고 DC</h1></a>
+    </div>
+    <nav>
+      <li><a href="textpage">글 지랄</a></li>
+      <li><a href="QnA">문의사항</a></li>
+      <li><a href="admin">관리자</a></li>
+    </nav>
+  </header>
   <body>
     {% if text_list %}
       <ul>
         {% for Text in text_list %}
-          <li><a href="{% url 'website:detail' Text.id %}">{{ Text.subject }}</a> - {{ Text.create_date.year }}년 {{ Text.create_date.month }}월 {{ Text.create_date.day }}일</li>
+          <li><a href="{% url 'website:detail' Text.id %}">{{ Text.subject }}</a> - {{ Text.create_date.year }}년 
+                                                                                    {{ Text.create_date.month }}월
+                                                                                    {{ Text.create_date.day }}일</li>
         {% endfor %}
       </ul>
     {% else %}
