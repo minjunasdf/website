@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-^1c9f#@tu#!v#8)03887ydm3*#9dde*-gztrbo7)z81ky00h=t
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'website-klkrg.run.goorm.io',
+    'kbsc-dc.run.goorm.io',
 ]
 
 
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "textpage.apps.MainpageConfig",
+    "mainpage.apps.MainpageConfig",
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ WSGI_APPLICATION = "config.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "NAME": str(BASE_DIR / "db.sqlite3"),
     }
 }
 

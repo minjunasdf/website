@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
   <main>
-    <h1>오건호는 죽었다!</h1>
+    <h1><center>오건호 바보!</center></h1>
   </main>
   <body>
     {% if text_list %}
       <ul>
         {% for Text in text_list %}
-        <li><a href="{% url 'website:detail' Text.id %}">{{ Text.subject }}</a></li>
+          <li><a href="{% url 'website:detail' Text.id %}">{{ Text.subject }}</a> - {{ Text.create_date.year }}년 {{ Text.create_date.month }}월 {{ Text.create_date.day }}일</li>
         {% endfor %}
       </ul>
     {% else %}
-     <p>등록된 글이 없습니다</p>
+      <p>등록된 글이 없습니다</p>
     {% endif %}
   </body>
 </html>
