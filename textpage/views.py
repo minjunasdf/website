@@ -22,5 +22,14 @@ def comment_create(request, text_id):
     return redirect('website:detail', text_id=text.id)
 
 def text_create(request):
-    form = TextForm()
-    return render(request, 'textpage/text_form.html', {'form':form})
+    if request.method == 'POST':
+        form = TextForm(request.POST)
+        if form.is_valid():
+            t = form.save(commit=False)
+            t.create_date = timezone.now()
+            t.save()
+            return redirect('website:')
+    else:
+         form = TextForm()
+    context = {'form':form}
+    return render(request, 'textpage/text_form.html', context)
