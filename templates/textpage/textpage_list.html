@@ -15,6 +15,9 @@
     </nav>
   </header>
   <body>
+    <a href="{% url 'website:text_create' %}">
+      질문 등록하기
+    </a>
     {% if text_list %}
       <ul>
         {% for Text in text_list %}
