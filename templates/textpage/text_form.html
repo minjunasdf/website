@@ -1,29 +1,11 @@
-<!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8">
-    <title>경북과고 DC</title>
-  </head>
-
-  <header>
-    <div id="logo">
-      <a href="https://kbsc-dc.run.goorm.app"><h1>경북과고 DC</h1></a>
-    </div>
-    <nav>
-      <li><a href="https://kbsc-dc.run.goorm.app/textpage">글 지랄</a></li>
-      <li><a href="https://kbsc-dc.run.goorm.app/QnA">문의사항</a></li>
-      <li><a href="https://kbsc-dc.run.goorm.app/admin">관리자</a></li>
-    </nav>
-  </header>
-
-  <body>
-    <div class="container">
-      <h5>질문 등록</h5>
-      <form method="post" class="post-form my-3">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit" class="btn btn-primart">저장하기</button>
-      </form>
-    </div>
-  </body>
-</html>
+{% extends 'text_base.html' %}
+{% block contenet %}
+<div class="container">
+  <h5>질문 등록</h5>
+  <form method="post" class="post-form my-3">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primart">저장하기</button>
+  </form>
+</div>
+{% endblock %}
