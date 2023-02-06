@@ -33,7 +33,7 @@
       </ul>
     </div>
 
-    <form action="{% url 'website:comment_create' text.id %}" method="post">
+    <form action="{% url 'textpage:comment_create' text.id %}" method="post">
       {% csrf_token %}
       <textarea name="content" id="content" rows="15"></textarea>
       <input type="submit" value="댓글 등록">

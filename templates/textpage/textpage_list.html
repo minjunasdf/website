@@ -19,13 +19,13 @@
   <body>
     ----------------------------------------------------------------------------------------------------
     <p>
-      <a href="{% url 'website:text_create' %}">글 쓰기</a> <-  작동 됩니다!
+      <a href="{% url 'textpage:text_create' %}">글 쓰기</a> <-  작동 됩니다!
     </p>
     ----------------------------------------------------------------------------------------------------
     {% if text_list %}
       <ul>
         {% for Text in text_list %}
-          <li><a href="{% url 'website:detail' Text.id %}">{{ Text.subject }}</a> - {{ Text.create_date.year }}년 
+          <li><a href="{% url 'textpage:detail' Text.id %}">{{ Text.subject }}</a> - {{ Text.create_date.year }}년 
                                                                                     {{ Text.create_date.month }}월
                                                                                     {{ Text.create_date.day }}일</li>
         {% endfor %}
