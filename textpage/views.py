@@ -19,7 +19,7 @@ def comment_create(request, text_id):
     text = get_object_or_404(Text, pk=text_id)
     comment = Comment(texts = text, content=request.POST.get('content'), create_date=timezone.now())
     comment.save()
-    return redirect('website:detail', text_id=text.id)
+    return redirect('textpage:detail', text_id=text.id)
 
 def text_create(request):
     if request.method == 'POST':
@@ -28,7 +28,7 @@ def text_create(request):
             t = form.save(commit=False)
             t.create_date = timezone.now()
             t.save()
-            return redirect('website:index')
+            return redirect('textpage:index')
     else:
          form = TextForm()
     context = {'form':form}
