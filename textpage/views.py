@@ -28,7 +28,7 @@ def text_create(request):
             t = form.save(commit=False)
             t.create_date = timezone.now()
             t.save()
-            return redirect('website:')
+            return redirect('website:index')
     else:
          form = TextForm()
     context = {'form':form}
