@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>경북과고 DC</title>
+  </head>
+  <header>
+    <div id="logo">
+      <a href="https://kbsc-dc.run.goorm.app"><h1>경북과고 DC</h1></a>
+    </div>
+    <nav>
+      <li><a href="https://kbsc-dc.run.goorm.app/textpage">글 지랄</a></li>
+      <li><a href="https://kbsc-dc.run.goorm.app/QnA">문의사항</a></li>
+      <li><a href="https://kbsc-dc.run.goorm.app/admin">관리자</a></li>
+    </nav>
+  </header>
+  <body>
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
