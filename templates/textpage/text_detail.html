@@ -1,16 +1,43 @@
-<h1>{{ text.subject }}</h1>
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>경북과고 DC</title>
+  </head>
 
-<div>
-  {{ text.content }}
-</div>
-<dif>
-  ---------------------------------------------------------
-</dif>
-<h5>{{ text.comment_set.count }}개의 댓글이 있습니다</h5>
-<div>
-  <ul>
-    {% for commentef in text.comment_set.all %}
-      <li>{{ commentef.content }}</li>
-    {% endfor %}
-  </ul>
-</div>
+  <header>
+    <div id="logo">
+      <a href=""><h1>경북과고 DC</h1></a>
+    </div>
+    <nav>
+      <li><a href="textpage">글 지랄</a></li>
+      <li><a href="QnA">문의사항</a></li>
+      <li><a href="admin">관리자</a></li>
+    </nav>
+  </header>
+
+  <body>
+    <p><h2>제목 - </h2><h1>{{ text.subject }}</h1></p>
+    <h3>작성 날짜 - {{ text.create_date }}</h3>
+    
+    <div>
+      {{ text.content }}
+    </div>
+
+    <h5>{{ text.comment_set.count }}개의 답변이 있습니다.</h5>
+    <div>
+      <ul>
+        {% for Text in text.comment_set.all %}
+          <li>{{ Text.content }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <form action="{% url 'website:comment_create' text.id %}" method="post">
+      {% csrf_token %}
+      <textarea name="content" id="content" rows="15"></textarea>
+      <input type="submit" value="댓글 등록">
+    </form>
+
+  </body>
+</html>
