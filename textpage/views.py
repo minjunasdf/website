@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Text, Comment
 from django.utils import timezone
+from .forms import TextForm
 
 
 def index(request):
@@ -19,3 +20,7 @@ def comment_create(request, text_id):
     comment = Comment(texts = text, content=request.POST.get('content'), create_date=timezone.now())
     comment.save()
     return redirect('website:detail', text_id=text.id)
+
+def text_create(request):
+    form = TextForm()
+    return render(request, 'website/text_form.html', {'form':form})

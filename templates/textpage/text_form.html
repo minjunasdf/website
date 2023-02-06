@@ -1,0 +1,9 @@
+{% extends 'text_base' %}
+{% block content %}
+  <div class="container">
+    <h5>질문 등록</h5>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primart">저장하기</button>
+  </div>
+{% endblock %}
