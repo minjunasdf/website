@@ -1,43 +1,24 @@
-<!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8">
-    <title>경북과고 DC</title>
-  </head>
+{% extends 'text_base.html' %}
+{% block content %}
+  <p><h2>제목 - </h2><h1>{{ text.subject }}</h1></p>
+  <h3>작성 날짜 - {{ text.create_date }}</h3>
+  
+  <div>
+    {{ text.content }}
+  </div>
 
-  <header>
-    <div id="logo">
-      <a href="https://kbsc-dc.run.goorm.app"><h1>경북과고 DC</h1></a>
-    </div>
-    <nav>
-      <li><a href="https://kbsc-dc.run.goorm.app/textpage">글 지랄</a></li>
-      <li><a href="https://kbsc-dc.run.goorm.app/QnA">문의사항</a></li>
-      <li><a href="https://kbsc-dc.run.goorm.app/admin">관리자</a></li>
-    </nav>
-  </header>
+  <h5>{{ text.comment_set.count }}개의 답변이 있습니다.</h5>
+  <div>
+    <ul>
+      {% for Text in text.comment_set.all %}
+        <li>{{ Text.content }}</li>
+      {% endfor %}
+    </ul>
+  </div>
 
-  <body>
-    <p><h2>제목 - </h2><h1>{{ text.subject }}</h1></p>
-    <h3>작성 날짜 - {{ text.create_date }}</h3>
-    
-    <div>
-      {{ text.content }}
-    </div>
-
-    <h5>{{ text.comment_set.count }}개의 답변이 있습니다.</h5>
-    <div>
-      <ul>
-        {% for Text in text.comment_set.all %}
-          <li>{{ Text.content }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-
-    <form action="{% url 'textpage:comment_create' text.id %}" method="post">
-      {% csrf_token %}
-      <textarea name="content" id="content" rows="15"></textarea>
-      <input type="submit" value="댓글 등록">
-    </form>
-
-  </body>
-</html>
+  <form action="{% url 'textpage:comment_create' text.id %}" method="post">
+    {% csrf_token %}
+    <textarea name="content" id="content" rows="15"></textarea>
+    <input type="submit" value="댓글 등록">
+  </form>
+{% endblock %}
