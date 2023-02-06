@@ -23,4 +23,4 @@ def comment_create(request, text_id):
 
 def text_create(request):
     form = TextForm()
-    return render(request, 'website/text_form.html', {'form':form})
+    return render(request, 'textpage/text_form.html', {'form':form})
