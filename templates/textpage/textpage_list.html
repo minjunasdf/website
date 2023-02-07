@@ -21,9 +21,9 @@
                 <a href="{% url 'textpage:detail' question.id %}">{{ question.subject }}</a>
             </td>
             <td>
-                {{ question.create_date.year }}/
-                {{ question.create_date.month }}/
-                {{ question.create_date.day }}
+                {{ question.create_date.year }}년
+                {{ question.create_date.month }}월
+                {{ question.create_date.day }}일
                  {{ question.create_date.hour }}시
             </td>
         </tr>
