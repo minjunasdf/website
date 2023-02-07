@@ -1,12 +1,12 @@
 {% extends 'text_base.html' %}
 {% block content %}
   <div class="container my-3">
-    <table class="table">
+    <table id="table">
         <tr>
             <a href="{% url 'textpage:text_create' %}">글 쓰기</a>
         </tr>
         <thead>
-        <tr class="table-dark">
+        <tr  id="table-dark">
             <th>번호</th>
             <th>제목</th>
             <th>작성일시</th>
@@ -20,7 +20,12 @@
             <td>
                 <a href="{% url 'textpage:detail' question.id %}">{{ question.subject }}</a>
             </td>
-            <td>{{ question.create_date }}</td>
+            <td>
+                {{ question.create_date_year }}/
+                {{ question.create_date_month }}/
+                {{ question.create_date_date }}
+                 {{ question.create_date_hour }}시
+            </td>
         </tr>
         {% endfor %}
         {% else %}
