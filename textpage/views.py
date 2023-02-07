@@ -5,7 +5,7 @@ from .forms import TextForm
 
 
 def index(request):
-    text_list = Text.objects.order_by('id')
+    text_list = Text.objects.order_by('-create_date')
     content = {'text_list' : text_list}
 
     return render(request, 'textpage/textpage_list.html', content)

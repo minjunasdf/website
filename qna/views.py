@@ -4,7 +4,7 @@ from django.utils import timezone
 from .forms import QnaForm
 
 def index(request):
-    text_list = QnA.objects.order_by('id')
+    text_list = QnA.objects.order_by('-create_date')
     content = {'text_list' : text_list}
 
     return render(request, 'qna/qna_list.html', content)
