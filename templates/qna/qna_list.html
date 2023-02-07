@@ -16,9 +16,9 @@
         {% if text_list %}
         {% for question in text_list %}
         <tr>
-            <td>{{ forloop.counter }}</td>
+            <td>{{ forloop.revcounter }}</td>
             <td>
-                <a href="{% url 'qna:detail' question.id %}">{{ question.subject }}</a>
+                {{ question.subject }}
             </td>
             <td>{{ question.create_date }}</td>
         </tr>

@@ -16,7 +16,7 @@
         {% if text_list %}
         {% for question in text_list %}
         <tr>
-            <td>{{ forloop.counter }}</td>
+            <td>{{ forloop.revcounter }}</td>
             <td>
                 <a href="{% url 'textpage:detail' question.id %}">{{ question.subject }}</a>
             </td>
