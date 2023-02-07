@@ -15,7 +15,7 @@
         <tr>
             <td>{{ forloop.counter }}</td>
             <td>
-                <a href="{% url 'textpage:detail' question.id %}">{{ question.subject }}</a>
+                <a href="{% url 'qna:detail' question.id %}">{{ question.subject }}</a>
             </td>
             <td>{{ question.create_date }}</td>
         </tr>
