@@ -1,6 +1,9 @@
 {% extends 'text_base.html' %}
 {% block content %}
   <div class="container my-3">
+    <div>
+      <a href="{% url 'qna:qna_create' %}">글 작성</a>
+    </div>
     <table class="table">
         <thead>
         <tr class="table-dark">
