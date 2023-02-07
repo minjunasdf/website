@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "textpage.apps.MainpageConfig",
     "mainpage.apps.MainpageConfig",
     "qna.apps.MainpageConfig",
+    "bootstrap5",
 ]
 
 MIDDLEWARE = [
