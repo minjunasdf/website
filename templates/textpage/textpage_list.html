@@ -21,10 +21,10 @@
                 <a href="{% url 'textpage:detail' question.id %}">{{ question.subject }}</a>
             </td>
             <td>
-                {{ question.create_date_year }}/
-                {{ question.create_date_month }}/
-                {{ question.create_date_date }}
-                 {{ question.create_date_hour }}시
+                {{ question.create_year }}/
+                {{ question.create_month }}/
+                {{ question.create_date }}
+                 {{ question.create_hour }}시
             </td>
         </tr>
         {% endfor %}
