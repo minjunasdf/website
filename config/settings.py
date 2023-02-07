@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'kbsc-dc.run.goorm.io',
-    '127.0.0.1'
+    '127.0.0.1',
+    'loaclhost',
 ]
 
 
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "textpage.apps.MainpageConfig",
     "mainpage.apps.MainpageConfig",
+    "qna.apps.MainpageConfig",
 ]
 
 MIDDLEWARE = [
