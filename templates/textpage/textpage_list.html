@@ -1,6 +1,7 @@
 {% extends 'text_base.html' %}
 {% block content %}
   <div>
+    <a class="btn btn-outline-dark" href="{% url 'textpage:text_create' %}" role="button">글 작성</a>
     <table class="table">
         <thead>
         <tr class="table-dark">
@@ -31,6 +32,5 @@
         {% endif %}
         </tbody>
     </table>
-    <a class="btn btn-outline-dark" href="{% url 'textpage:text_create' %}" role="button">글 작성</a>
   </div>
 {% endblock %}
