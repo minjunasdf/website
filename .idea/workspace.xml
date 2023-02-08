@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed6ebd07-710f-41a8-a5ae-cfdc1fed7649" name="Changes" comment="사이트 환경 수정" />
+    <list id="edc89e2c-9157-4124-bdd8-30e0d59c7375" name="datasheet" comment="datasheet" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LJmF5PHMa4CwZG8uPtEbE0t9dF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/RnE/python/website/qna&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;power.mode3.zeranthium&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\RnE\python\website\qna" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\RnE\python\website" />
+      <recent name="C:\Users\user\Desktop\RnE\python\website\textpage" />
+      <recent name="C:\Users\user\Desktop\RnE\python\website\templates\textpage" />
+      <recent name="C:\Users\user\Desktop\RnE\python\website\templates\textpage\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed6ebd07-710f-41a8-a5ae-cfdc1fed7649" name="Changes" comment="" />
+      <changelist id="edc89e2c-9157-4124-bdd8-30e0d59c7375" name="datasheet" comment="" />
+      <created>1675597454085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675597454085</updated>
+    </task>
+    <task id="LOCAL-00044" summary="사이트 환경 수정">
+      <created>1675687665613</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1675687665613</updated>
+    </task>
+    <task id="LOCAL-00045" summary="사이트 환경 수정">
+      <created>1675687748322</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1675687748322</updated>
+    </task>
+    <task id="LOCAL-00046" summary="사이트 환경 수정">
+      <created>1675728694035</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1675728694035</updated>
+    </task>
+    <task id="LOCAL-00047" summary="사이트 환경 수정">
+      <created>1675728936384</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1675728936384</updated>
+    </task>
+    <task id="LOCAL-00048" summary="사이트 환경 수정">
+      <created>1675728976793</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1675728976793</updated>
+    </task>
+    <task id="LOCAL-00049" summary="사이트 환경 수정">
+      <created>1675729427365</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1675729427365</updated>
+    </task>
+    <task id="LOCAL-00050" summary="사이트 환경 수정">
+      <created>1675729640269</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1675729640269</updated>
+    </task>
+    <task id="LOCAL-00051" summary="사이트 환경 수정">
+      <created>1675729728742</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1675729728742</updated>
+    </task>
+    <task id="LOCAL-00052" summary="사이트 환경 수정">
+      <created>1675730429571</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1675730429571</updated>
+    </task>
+    <task id="LOCAL-00053" summary="사이트 환경 수정">
+      <created>1675730631079</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1675730631080</updated>
+    </task>
+    <task id="LOCAL-00054" summary="사이트 환경 수정">
+      <created>1675730671546</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1675730671546</updated>
+    </task>
+    <task id="LOCAL-00055" summary="사이트 환경 수정">
+      <created>1675730829211</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1675730829211</updated>
+    </task>
+    <task id="LOCAL-00056" summary="사이트 환경 수정">
+      <created>1675730908326</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1675730908326</updated>
+    </task>
+    <task id="LOCAL-00057" summary="사이트 환경 수정">
+      <created>1675731193531</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1675731193531</updated>
+    </task>
+    <task id="LOCAL-00058" summary="사이트 환경 수정">
+      <created>1675731439578</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1675731439578</updated>
+    </task>
+    <task id="LOCAL-00059" summary="사이트 환경 수정">
+      <created>1675732001883</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1675732001883</updated>
+    </task>
+    <task id="LOCAL-00060" summary="사이트 환경 수정">
+      <created>1675738177130</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1675738177130</updated>
+    </task>
+    <task id="LOCAL-00061" summary="datasheet">
+      <created>1675738187866</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1675738187866</updated>
+    </task>
+    <task id="LOCAL-00062" summary="사이트 환경 수정">
+      <created>1675738557383</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1675738557383</updated>
+    </task>
+    <task id="LOCAL-00063" summary="사이트 환경 수정">
+      <created>1675738585680</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1675738585680</updated>
+    </task>
+    <task id="LOCAL-00064" summary="사이트 환경 수정">
+      <created>1675740752990</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1675740752990</updated>
+    </task>
+    <task id="LOCAL-00065" summary="사이트 환경 수정">
+      <created>1675740822385</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1675740822385</updated>
+    </task>
+    <task id="LOCAL-00066" summary="사이트 환경 수정">
+      <created>1675741012078</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741012078</updated>
+    </task>
+    <task id="LOCAL-00067" summary="사이트 환경 수정">
+      <created>1675741055944</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741055944</updated>
+    </task>
+    <task id="LOCAL-00068" summary="사이트 환경 수정">
+      <created>1675741103861</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741103861</updated>
+    </task>
+    <task id="LOCAL-00069" summary="사이트 환경 수정">
+      <created>1675741184289</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741184289</updated>
+    </task>
+    <task id="LOCAL-00070" summary="사이트 환경 수정">
+      <created>1675741217675</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741217675</updated>
+    </task>
+    <task id="LOCAL-00071" summary="사이트 환경 수정">
+      <created>1675741311565</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741311565</updated>
+    </task>
+    <task id="LOCAL-00072" summary="사이트 환경 수정">
+      <created>1675741345743</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741345743</updated>
+    </task>
+    <task id="LOCAL-00073" summary="사이트 환경 수정">
+      <created>1675741395468</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741395468</updated>
+    </task>
+    <task id="LOCAL-00074" summary="사이트 환경 수정">
+      <created>1675741622280</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741622280</updated>
+    </task>
+    <task id="LOCAL-00075" summary="사이트 환경 수정">
+      <created>1675741747858</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741747858</updated>
+    </task>
+    <task id="LOCAL-00076" summary="사이트 환경 수정">
+      <created>1675741825201</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741825201</updated>
+    </task>
+    <task id="LOCAL-00077" summary="사이트 환경 수정">
+      <created>1675742101479</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1675742101479</updated>
+    </task>
+    <task id="LOCAL-00078" summary="사이트 환경 수정">
+      <created>1675742340946</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1675742340946</updated>
+    </task>
+    <task id="LOCAL-00079" summary="사이트 환경 수정">
+      <created>1675812708795</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1675812708796</updated>
+    </task>
+    <task id="LOCAL-00080" summary="사이트 환경 수정">
+      <created>1675813023896</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1675813023896</updated>
+    </task>
+    <task id="LOCAL-00081" summary="사이트 환경 수정">
+      <created>1675813124989</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1675813124989</updated>
+    </task>
+    <task id="LOCAL-00082" summary="사이트 환경 수정">
+      <created>1675813229891</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1675813229892</updated>
+    </task>
+    <task id="LOCAL-00083" summary="사이트 환경 수정">
+      <created>1675813425880</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1675813425880</updated>
+    </task>
+    <task id="LOCAL-00084" summary="사이트 환경 수정">
+      <created>1675813588653</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1675813588653</updated>
+    </task>
+    <task id="LOCAL-00085" summary="사이트 환경 수정">
+      <created>1675813704300</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1675813704300</updated>
+    </task>
+    <task id="LOCAL-00086" summary="사이트 환경 수정">
+      <created>1675813900047</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1675813900048</updated>
+    </task>
+    <task id="LOCAL-00087" summary="사이트 환경 수정">
+      <created>1675813936875</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1675813936875</updated>
+    </task>
+    <task id="LOCAL-00088" summary="사이트 환경 수정">
+      <created>1675813977142</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1675813977142</updated>
+    </task>
+    <task id="LOCAL-00089" summary="사이트 환경 수정">
+      <created>1675814704631</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1675814704631</updated>
+    </task>
+    <task id="LOCAL-00090" summary="사이트 환경 수정">
+      <created>1675814837292</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1675814837292</updated>
+    </task>
+    <task id="LOCAL-00091" summary="사이트 환경 수정">
+      <created>1675819084066</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1675819084066</updated>
+    </task>
+    <task id="LOCAL-00092" summary="datasheet">
+      <created>1675819382979</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1675819382979</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="세팅" />
+    <MESSAGE value="정리" />
+    <MESSAGE value="groom 연결 테스트" />
+    <MESSAGE value="groom 연결 테스트2" />
+    <MESSAGE value="사이트 환경 수정" />
+    <MESSAGE value="datasheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="datasheet" />
+  </component>
+</project>

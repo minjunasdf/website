@@ -1,0 +1,6 @@
+diff --git a/templates/static/style.css b/textpage/static/style.css
+rename from templates/static/style.css
+rename to textpage/static/style.css
+diff --git a/templates/static/bootstrap.min.css b/textpage/static/bootstrap.min.css
+rename from templates/static/bootstrap.min.css
+rename to textpage/static/bootstrap.min.css
