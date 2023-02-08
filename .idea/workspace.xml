@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed6ebd07-710f-41a8-a5ae-cfdc1fed7649" name="Changes" comment="사이트 환경 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/bootstrap.min.css" afterDir="false" />
     </list>
     <list id="edc89e2c-9157-4124-bdd8-30e0d59c7375" name="datasheet" comment="datasheet" />
@@ -61,13 +62,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675597454085</updated>
-    </task>
-    <task id="LOCAL-00082" summary="사이트 환경 수정">
-      <created>1675813229891</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1675813229892</updated>
     </task>
     <task id="LOCAL-00083" summary="사이트 환경 수정">
       <created>1675813425880</created>
@@ -405,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675834554831</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="사이트 환경 수정">
+      <created>1675834605913</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1675834605913</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
