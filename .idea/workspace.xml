@@ -43,8 +43,8 @@
       <recent name="C:\Users\user\Desktop\RnE\python\website\qna" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\RnE\python\website" />
       <recent name="C:\Users\user\Desktop\RnE\python\website\templates" />
+      <recent name="C:\Users\user\Desktop\RnE\python\website" />
       <recent name="C:\Users\user\Desktop\RnE\python\website\textpage" />
       <recent name="C:\Users\user\Desktop\RnE\python\website\templates\textpage" />
       <recent name="C:\Users\user\Desktop\RnE\python\website\templates\textpage\css" />
@@ -59,13 +59,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675597454085</updated>
-    </task>
-    <task id="LOCAL-00063" summary="사이트 환경 수정">
-      <created>1675738585680</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1675738585680</updated>
     </task>
     <task id="LOCAL-00064" summary="사이트 환경 수정">
       <created>1675740752990</created>
@@ -403,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675831770457</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="사이트 환경 수정">
+      <created>1675832666286</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1675832666286</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
