@@ -12,24 +12,34 @@
 
   <body>
     <header>
-      <nav>
-        <table class="container my-3">
-          <tr>
-            <td><a href="https://kbsc-dc.run.goorm.app" id="logo"><h1>경북과고 DC</h1></a></td>
-            <td style="color : white">ttttttttttt</td>
-            <td><a href="https://kbsc-dc.run.goorm.app/textpage">글 지랄</a></td>
-            <td style="color : white">t</td>
-            <td><a href="https://kbsc-dc.run.goorm.app/qna">문의하기</a></td>
-          </tr>
-        </table>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="{% url 'mainpage:index' %}">경북과고 DC</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'textpage:index' %}">글 지랄</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'qna:index' %}">문의사항</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">로그인</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
     <main>
-      ----------------------------------------------------------------------------------------------------
-      {% block content %}
-      {% endblock %}
-      ----------------------------------------------------------------------------------------------------
+      <div class="container">
+        {% block content %}
+        {% endblock %}
+      </div>
     </main>
 
     <footer>

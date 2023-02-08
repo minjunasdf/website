@@ -1,12 +1,9 @@
 {% extends 'text_base.html' %}
 {% block content %}
   <div>
-    <tr>
-        <a href="{% url 'textpage:text_create' %}">글 쓰기</a>
-    </tr>
     <table class="table">
         <thead>
-        <tr>
+        <tr class="table-dark">
             <th>번호</th>
             <th>제목</th>
             <th>작성일시</th>
@@ -18,12 +15,12 @@
         <tr>
             <td>{{ forloop.revcounter }}</td>
             <td>
-                <a href="{% url 'textpage:detail' question.id %}">{{ question.subject }}</a>
+                <a href="{% url 'textpage:detail' question.id %}">
+                    {{ question.subject }}
+                </a>
             </td>
             <td>
-                {{ question.create_date.year }}년
-                {{ question.create_date.month }}월
-                {{ question.create_date.day }}일
+                {{ question.create_date }}
             </td>
         </tr>
         {% endfor %}
@@ -34,5 +31,6 @@
         {% endif %}
         </tbody>
     </table>
+    <a class="btn btn-outline-dark" href="{% url 'textpage:text_create' %}" role="button">글 작성</a>
   </div>
 {% endblock %}
