@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed6ebd07-710f-41a8-a5ae-cfdc1fed7649" name="Changes" comment="사이트 환경 수정">
-      <change beforePath="$PROJECT_DIR$/image/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/image/logo.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="ed6ebd07-710f-41a8-a5ae-cfdc1fed7649" name="Changes" comment="사이트 환경 수정" />
     <list id="edc89e2c-9157-4124-bdd8-30e0d59c7375" name="datasheet" comment="datasheet" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,7 @@
       <recent name="C:\Users\user\Desktop\RnE\python\website\qna" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\RnE\python\website\templates" />
       <recent name="C:\Users\user\Desktop\RnE\python\website" />
       <recent name="C:\Users\user\Desktop\RnE\python\website\textpage" />
       <recent name="C:\Users\user\Desktop\RnE\python\website\templates\textpage" />
@@ -60,41 +59,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675597454085</updated>
-    </task>
-    <task id="LOCAL-00053" summary="사이트 환경 수정">
-      <created>1675730631079</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1675730631080</updated>
-    </task>
-    <task id="LOCAL-00054" summary="사이트 환경 수정">
-      <created>1675730671546</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1675730671546</updated>
-    </task>
-    <task id="LOCAL-00055" summary="사이트 환경 수정">
-      <created>1675730829211</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1675730829211</updated>
-    </task>
-    <task id="LOCAL-00056" summary="사이트 환경 수정">
-      <created>1675730908326</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1675730908326</updated>
-    </task>
-    <task id="LOCAL-00057" summary="사이트 환경 수정">
-      <created>1675731193531</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1675731193531</updated>
     </task>
     <task id="LOCAL-00058" summary="사이트 환경 수정">
       <created>1675731439578</created>
@@ -404,7 +368,42 @@
       <option name="project" value="LOCAL" />
       <updated>1675828170744</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="사이트 환경 수정">
+      <created>1675830359466</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1675830359466</updated>
+    </task>
+    <task id="LOCAL-00103" summary="사이트 환경 수정">
+      <created>1675830396610</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1675830396610</updated>
+    </task>
+    <task id="LOCAL-00104" summary="사이트 환경 수정">
+      <created>1675830500172</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1675830500172</updated>
+    </task>
+    <task id="LOCAL-00105" summary="사이트 환경 수정">
+      <created>1675830527741</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1675830527741</updated>
+    </task>
+    <task id="LOCAL-00106" summary="사이트 환경 수정">
+      <created>1675830555523</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1675830555523</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
