@@ -60,20 +60,6 @@
       <option name="presentableId" value="Default" />
       <updated>1675597454085</updated>
     </task>
-    <task id="LOCAL-00119" summary="사이트 환경 수정">
-      <created>1675833957488</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1675833957488</updated>
-    </task>
-    <task id="LOCAL-00120" summary="사이트 환경 수정">
-      <created>1675833994669</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1675833994669</updated>
-    </task>
     <task id="LOCAL-00121" summary="사이트 환경 수정">
       <created>1675834051400</created>
       <option name="number" value="00121" />
@@ -403,7 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675905542510</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="사이트 환경 수정">
+      <created>1675905592009</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1675905592009</updated>
+    </task>
+    <task id="LOCAL-00169" summary="사이트 환경 수정">
+      <created>1675905685641</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1675905685641</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
