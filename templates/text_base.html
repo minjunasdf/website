@@ -17,7 +17,6 @@
           <a class="navbar-brand" href="{% url 'mainpage:index' %}">
             <h4>
               <img src="{% static 'image.svg' %}" alt="Logo" width="60" height="60" class="d-inline-block align-text-center">
-              경북과고 DC
             </h4>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,10 +30,8 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="{% url 'qna:index' %}">문의사항</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">로그인</a>
-              </li>
             </ul>
+            <a class="navbar-brand disabled" style="color: #292929;">로그인</a>
           </div>
         </div>
       </nav>
@@ -42,16 +39,28 @@
 
     <main>
       <div class="container">
+        <p></p>
         {% block content %}
         {% endblock %}
+        <p></p>
       </div>
     </main>
 
     <footer>
-      <nav id="bottommenu">
-        <a href="#">사이트 소개</a>
-          <a href="#">개인정보처리방침</a>
-          <a href="#">그 외 잡것들</a>
+      <nav class="navbar navbar-expand sticky-bottom" style="background-color: #606060;">
+        <div class="container-fluid">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">사이트 정보</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">개인정보처리방침</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">연락처</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </footer>
   </body>

@@ -1,13 +1,13 @@
 {% extends 'text_base.html' %}
 {% block content %}
   <div>
-    <p></p>
     <p><a class="btn btn-outline-dark" href="{% url 'textpage:text_create' %}" role="button">글 작성</a></p>
     <table class="table">
         <thead>
         <tr class="table-dark">
             <th>번호</th>
             <th>제목</th>
+            <th>작성자</th>
             <th>작성일시</th>
         </tr>
         </thead>
@@ -21,6 +21,7 @@
                     {{ question.subject }}
                 </a>
             </td>
+            <td></td>
             <td>
                 {{ question.create_date }}
             </td>
