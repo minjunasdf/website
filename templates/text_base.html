@@ -25,7 +25,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{% url 'textpage:index' %}">글 지랄</a>
+                <a class="nav-link active" aria-current="page" href="">글 지랄</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{% url 'textpage:index' %}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  글 쓰는 곳
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="{% url 'textpage:index' %}">일반 글</a></li>
+                  <li><a class="dropdown-item disabled" href="#">사진 게시판</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="{% url 'qna:index' %}">문의사항</a>
