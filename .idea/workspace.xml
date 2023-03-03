@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed6ebd07-710f-41a8-a5ae-cfdc1fed7649" name="Changes" comment="사이트 환경 수정">
-      <change afterPath="$PROJECT_DIR$/common/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-02-08__8_30__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-02-08_오전_8_30_[Changes]/shelved.patch" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/text_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/text_base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/textpage/text_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/textpage/text_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/textpage/text_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/textpage/text_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/textpage/textpage_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/textpage/textpage_list.html" afterDir="false" />
     </list>
     <list id="edc89e2c-9157-4124-bdd8-30e0d59c7375" name="datasheet" comment="datasheet" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -55,8 +47,8 @@
       <recent name="C:\Users\user\Desktop\RnE\python\website\qna" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\RnE\python\website\common" />
       <recent name="C:\Users\user\Desktop\RnE\python\website\static" />
+      <recent name="C:\Users\user\Desktop\RnE\python\website\common" />
       <recent name="C:\Users\user\Desktop\RnE\python\website\templates" />
       <recent name="C:\Users\user\Desktop\RnE\python\website" />
       <recent name="C:\Users\user\Desktop\RnE\python\website\textpage" />
@@ -71,13 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675597454085</updated>
-    </task>
-    <task id="LOCAL-00130" summary="사이트 환경 수정">
-      <created>1675834554831</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1675834554831</updated>
     </task>
     <task id="LOCAL-00131" summary="사이트 환경 수정">
       <created>1675834605913</created>
@@ -415,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675928310863</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="사이트 환경 수정">
+      <created>1677802376611</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1677802376611</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
