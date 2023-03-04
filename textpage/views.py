@@ -31,7 +31,7 @@ def comment_create(request, text_id):
             return redirect('textpage:detail', question_id=text.id)
     else:
         return HttpResponseNotAllowed('Only POST is possible.')
-    context = {'texts': text, 'form': form}
+    context = {'text': text, 'form': form}
     return render(request, 'textpage/text_detail.html', context)
 
 @login_required(login_url='common:login')
