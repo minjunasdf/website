@@ -36,10 +36,11 @@
     <form action="{% url 'textpage:comment_create' text.id %}" method="post" class="my-3">
       {% csrf_token %}
       <div class="form-group">
-        <textarea name="content" id="content" rows="7" class="form-control"></textarea>
+        <textarea {% if not user.is_authenticated %}disabled{% endif %}
+              name="content" id="content" class="form-control" rows="10"></textarea>
       </div>
       <h1>  </h1>
-      <input type="submit" class="btn btn-outline-dark" value="댓글 등록">
+      <input {% if not user.is_authenticated %}disabled{% endif %} type="submit" class="btn btn-outline-dark" value="댓글 등록">
     </form>
   </div>
 {% endblock %}
