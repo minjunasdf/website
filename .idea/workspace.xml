@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed6ebd07-710f-41a8-a5ae-cfdc1fed7649" name="Changes" comment="사이트 환경 수정">
-      <change afterPath="$PROJECT_DIR$/common/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="ed6ebd07-710f-41a8-a5ae-cfdc1fed7649" name="Changes" comment="사이트 환경 수정" />
     <list id="edc89e2c-9157-4124-bdd8-30e0d59c7375" name="datasheet" comment="datasheet" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
