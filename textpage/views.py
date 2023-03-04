@@ -20,19 +20,19 @@ def detail(request, text_id):
 @login_required(login_url='common:login')
 def comment_create(request, text_id):
     text = get_object_or_404(Text, pk=text_id)
-        if request.method == "POST":
-            form = CommentForm(request.POST)
-            if form.is_valid():
-                answer = form.save(commit=False)
-                answer.create_date = timezone.now()
-                answer.content = text
-                answer.author = request.user
-                answer.save()
-                return redirect('textpage:detail', question_id=text.id)
-        else:
-            return HttpResponseNotAllowed('Only POST is possible.')
-        context = {'texts': text, 'form': form}
-        return render(request, 'textpage/text_detail.html', context)
+    if request.method == "POST":
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            answer = form.save(commit=False)
+            answer.create_date = timezone.now()
+            answer.content = text
+            answer.author = request.user
+            answer.save()
+            return redirect('textpage:detail', question_id=text.id)
+    else:
+        return HttpResponseNotAllowed('Only POST is possible.')
+    context = {'texts': text, 'form': form}
+    return render(request, 'textpage/text_detail.html', context)
 
 @login_required(login_url='common:login')
 def text_create(request):
