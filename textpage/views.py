@@ -28,7 +28,7 @@ def comment_create(request, text_id):
             answer.texts = text
             answer.author = request.user
             answer.save()
-            return redirect('textpage:detail', question_id=text.id)
+            return redirect('textpage:detail', text_id=text.id)
     else:
         return HttpResponseNotAllowed('Only POST is possible.')
     context = {'text': text, 'form': form}
