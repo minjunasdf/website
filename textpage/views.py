@@ -25,7 +25,7 @@ def comment_create(request, text_id):
         if form.is_valid():
             answer = form.save(commit=False)
             answer.create_date = timezone.now()
-            answer.content = text
+            answer.texts = text
             answer.author = request.user
             answer.save()
             return redirect('textpage:detail', question_id=text.id)
