@@ -1,5 +1,4 @@
 {% extends 'text_base.html' %}
-{% load textpage_filter %}
 {% block content %}
   <div>
     <p><a class="btn btn-outline-dark" href="{% url 'textpage:text_create' %}" role="button">글 작성</a></p>
@@ -15,7 +14,7 @@
         {% if text_list %}
         {% for question in text_list %}
         <tr>
-            <td>{{ text_list.paginator.count|sub:text_list.start_index|sub:forloop.counter0|add:1 }}</td>
+            <td>{{ question.id }}</td>
             <td>
                 <a class="nav-link" href="{% url 'textpage:detail' question.id %}">
                     {{ question.subject }}
