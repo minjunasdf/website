@@ -23,7 +23,7 @@ def detail(request, text_id):
     return render(request, 'textpage/text_detail.html', content)
 
 @login_required(login_url='common:login')
-@user_passes_test(comment_group_check, raise_exception=True)
+@user_passes_test(comment_group_check)
 def comment_create(request, text_id):
     text = get_object_or_404(Text, pk=text_id)
     if request.method == "POST":
@@ -41,7 +41,7 @@ def comment_create(request, text_id):
     return render(request, 'textpage/text_detail.html', context)
 
 @login_required(login_url='common:login')
-@user_passes_test(texts_group_check, raise_exception=True)
+@user_passes_test(texts_group_check)
 def text_create(request):
     if request.method == 'POST':
         form = TextForm(request.POST)
