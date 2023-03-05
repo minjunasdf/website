@@ -5,6 +5,11 @@ from .forms import TextForm, CommentForm
 from django.contrib.auth.decorators import login_required, permission_required
 from django.http import HttpResponseNotAllowed
 
+def comment_group_check(user):
+    return "comment_allow" in user.groups.all()
+
+def texts_group_check(user):
+    return "texts_allow" in user.groups.all()
 
 def index(request):
     text_list = Text.objects.order_by('-create_date')
@@ -18,7 +23,7 @@ def detail(request, text_id):
     return render(request, 'textpage/text_detail.html', content)
 
 @login_required(login_url='common:login')
-@permission_required('comment_allow', raise_exception=True)
+@user_passes_test(comment_group_check, raise_exception=True)
 def comment_create(request, text_id):
     text = get_object_or_404(Text, pk=text_id)
     if request.method == "POST":
@@ -36,7 +41,7 @@ def comment_create(request, text_id):
     return render(request, 'textpage/text_detail.html', context)
 
 @login_required(login_url='common:login')
-@permission_required('texts_allow', raise_exception=True)
+@user_passes_test(texts_group_check, raise_exception=True)
 def text_create(request):
     if request.method == 'POST':
         form = TextForm(request.POST)
