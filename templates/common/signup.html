@@ -5,7 +5,7 @@
         {% csrf_token %}
         {% include "form_errors.html" %}
         <div class="mb-3">
-            <label for="username">사용자 이름</label>
+            <label for="username">사용자 이름(본명을 적어주세요, 본명이 아니라면 차단됩니다)<br>이 사이트는 익명이므로 이름을 적더라도 누가 적었는지 모릅니다!<br>관리를 위한 정보일 뿐입니다.</label>
             <input type="text" class="form-control" name="username" id="username"
                    value="{{ form.username.value|default_if_none:'' }}">
         </div>
@@ -20,7 +20,7 @@
                    value="{{ form.password2.value|default_if_none:'' }}">
         </div>
         <div class="mb-3">
-            <label for="email">이메일 (학교 이메일을 적으셔야 글 적으실 수 있어요)</label>
+            <label for="email">이메일 (학교 이메일을 적으셔야 글 적으실 수 있어요)<br>만약 학교 이메일이 아니라면 차단됩니다!</label>
             <input type="text" class="form-control" name="email" id="email"
                    value="{{ form.email.value|default_if_none:'' }}">
         </div>
