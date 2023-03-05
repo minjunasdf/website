@@ -4,6 +4,7 @@ from django.utils import timezone
 from .forms import TextForm, CommentForm
 from django.contrib.auth.decorators import login_required, permission_required, user_passes_test
 from django.http import HttpResponseNotAllowed
+from django.core.paginator import Paginator
 
 def comment_group_check(user):
     return "comment_allow" in user.groups.all()
@@ -12,9 +13,11 @@ def texts_group_check(user):
     return "texts_allow" in user.groups.all()
 
 def index(request):
+    page = request.GET.get('page', '1')
     text_list = Text.objects.order_by('-create_date')
-    content = {'text_list' : text_list}
-
+    paginator = Paginator(text_list, 10)  # 페이지당 10개씩 보여주기
+    page_obj = paginator.get_page(page)
+    content = {'question_list': page_obj}
     return render(request, 'textpage/textpage_list.html', content)
 
 def detail(request, text_id):
