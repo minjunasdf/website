@@ -17,7 +17,7 @@ def index(request):
     text_list = Text.objects.order_by('-create_date')
     paginator = Paginator(text_list, 10)  # 페이지당 10개씩 보여주기
     page_obj = paginator.get_page(page)
-    content = {'question_list': page_obj}
+    content = {'text_list': page_obj}
     return render(request, 'textpage/textpage_list.html', content)
 
 def detail(request, text_id):
