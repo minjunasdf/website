@@ -5,7 +5,7 @@
         {% csrf_token %}
         {% include "form_errors.html" %}
         <div class="mb-3">
-            <label for="username">사용자 이름(본명을 적어주세요, 본명이 아니라면 차단됩니다)</label>
+            <label for="username">사용자 이름 (본명을 적어주세요, 본명이 아니라면 차단됩니다)</label>
             <input type="text" class="form-control" name="username" id="username"
                    value="{{ form.username.value|default_if_none:'' }}">
         </div>
