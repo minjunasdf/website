@@ -15,7 +15,7 @@
         {% if text_list %}
         {% for question in text_list %}
         <tr>
-            <td>{{ question_list.paginator.count|sub:question_list.start_index|sub:forloop.counter0|add:1 }}</td>
+            <td>{{ text_list.paginator.count|sub:text_list.start_index|sub:forloop.counter0|add:1 }}</td>
             <td>
                 <a class="nav-link" href="{% url 'textpage:detail' question.id %}">
                     {{ question.subject }}
