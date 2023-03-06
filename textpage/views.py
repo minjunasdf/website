@@ -64,7 +64,7 @@ def text_goodvote(request, question_id):
         messages.error(request, '본인이 작성한 글은 추천할수 없습니다')
     else:
         Text.goodvote.add(request.user)
-    return redirect('textpage:detail', question_id=question.id)
+    return redirect('textpage:detail', text_id=Text.id)
 
 @login_required(login_url='common:login')
 def text_badvote(request, question_id):
@@ -73,4 +73,4 @@ def text_badvote(request, question_id):
         messages.error(request, '본인이 작성한 글은 추천할수 없습니다')
     else:
         Text.badvote.add(request.user)
-    return redirect('textpage:detail', question_id=question.id)
+    return redirect('textpage:detail', text_id=Text.id)
