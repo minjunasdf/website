@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed6ebd07-710f-41a8-a5ae-cfdc1fed7649" name="Changes" comment="사이트 환경 수정">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed6ebd07-710f-41a8-a5ae-cfdc1fed7649" name="Changes" comment="사이트 환경 수정" />
     <list id="edc89e2c-9157-4124-bdd8-30e0d59c7375" name="datasheet" comment="datasheet" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,41 +60,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675597454085</updated>
-    </task>
-    <task id="LOCAL-00151" summary="사이트 환경 수정">
-      <created>1675839725738</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1675839725738</updated>
-    </task>
-    <task id="LOCAL-00152" summary="사이트 환경 수정">
-      <created>1675839783839</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1675839783839</updated>
-    </task>
-    <task id="LOCAL-00153" summary="사이트 환경 수정">
-      <created>1675839812521</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1675839812521</updated>
-    </task>
-    <task id="LOCAL-00154" summary="사이트 환경 수정">
-      <created>1675839857961</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1675839857961</updated>
-    </task>
-    <task id="LOCAL-00155" summary="사이트 환경 수정">
-      <created>1675839904003</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1675839904003</updated>
     </task>
     <task id="LOCAL-00156" summary="사이트 환경 수정">
       <created>1675839951436</created>
@@ -406,7 +369,42 @@
       <option name="project" value="LOCAL" />
       <updated>1678072157887</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="사이트 환경 수정">
+      <created>1678084906756</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1678084906756</updated>
+    </task>
+    <task id="LOCAL-00201" summary="사이트 환경 수정">
+      <created>1678084968078</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1678084968078</updated>
+    </task>
+    <task id="LOCAL-00202" summary="사이트 환경 수정">
+      <created>1678085066657</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1678085066657</updated>
+    </task>
+    <task id="LOCAL-00203" summary="사이트 환경 수정">
+      <created>1678085118368</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1678085118368</updated>
+    </task>
+    <task id="LOCAL-00204" summary="사이트 환경 수정">
+      <created>1678085188136</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1678085188136</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
