@@ -7,5 +7,6 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('<int:text_id>/', views.detail, name='detail'),
     path('comment/create/<int:text_id>/', views.comment_create, name='comment_create'),
+    path('text/vote/<int:text_id>/', views.text_goodvote, name='text_goodvote'),
     path('text/create/', views.text_create, name='text_create'),
 ]
