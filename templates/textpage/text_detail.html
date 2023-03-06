@@ -11,16 +11,16 @@
           <div class="badge bg-secondary">
             {{ text.create_date }}
           </div>
-          <div class="my-3">
-            <a href="{% url 'textpage:text_goodvote' text.id %}" class="btn btn-sm btn-outline-secondary">
-              추천
-              <span class="badge rounded-pill bg-success">{{text.goodvote.count}}</span>
-            </a>
-            <a href="{% url 'textpage:text_badvote' text.id %}" class="btn btn-sm btn-outline-secondary">
-              비추천
-              <span class="badge rounded-pill bg-success">{{text.badvote.count}}</span>
-            </a>
-          </div>
+        </div>
+        <div class="my-3">
+          <a href="{% url 'textpage:text_goodvote' text.id %}" class="btn btn-sm btn-outline-secondary">
+            추천
+            <span class="badge rounded-pill bg-success">{{text.goodvote.count}}</span>
+          </a>
+          <a href="{% url 'textpage:text_badvote' text.id %}" class="btn btn-sm btn-outline-secondary">
+            비추천
+            <span class="badge rounded-pill bg-success">{{text.badvote.count}}</span>
+          </a>
         </div>
       </div>
     </div>
