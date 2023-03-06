@@ -59,8 +59,8 @@ def text_create(request):
     return render(request, 'textpage/text_form.html', context)
 
 @login_required(login_url='common:login')
-def text_goodvote(request, question_id):
-    question = get_object_or_404(Text, pk=question_id)
+def text_goodvote(request, text_id):
+    question = get_object_or_404(Text, pk=text_id)
     if request.user == question.author:
         messages.error(request, '본인이 작성한 글은 추천할수 없습니다')
     else:
