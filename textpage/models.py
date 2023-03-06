@@ -7,8 +7,8 @@ class Text(models.Model):
     content = models.TextField()
     create_date = models.DateTimeField()
     author = models.ForeignKey(User, on_delete=models.CASCADE, null=True, related_name='author_text')
-    goodvote = models.ManyToManyField(User, related_name='voter_text')
-    badvote = models.ManyToManyField(User, related_name='voter_text')
+    goodvote = models.ManyToManyField(User, related_name='goodvote_text')
+    badvote = models.ManyToManyField(User, related_name='badvote_text')
 
     def __str__(self):
         return self.subject
