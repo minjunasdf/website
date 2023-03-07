@@ -31,7 +31,7 @@
                 {{ question.create_date }}
             </td>
             <td>
-                {{ question.goodvote.count }}
+                {{ question.goodvote.count }} / {{ question.badvote.count }}
             </td>
         </tr>
         {% endfor %}
