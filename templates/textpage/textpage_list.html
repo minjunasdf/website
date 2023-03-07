@@ -31,7 +31,11 @@
                 {{ question.create_date }}
             </td>
             <td>
-                {% {{ question.goodvote.count }} - {{ question.badvote.count }} %}
+                <div class="progress">
+                    <div class="progress-bar" aria-valuenow={{ question.goodvote.count }} aria-valuemin="0">{{ question.goodvote.count }}</div>
+                    <div class="progress-bar bg-success" aria-valuenow={{ question.badvote.count }} aria-valuemin={{ question.goodvote.count }}>{{ question.badvote.count }}</div>
+                </div>
+                {{ question.goodvote.count }} - {{ question.badvote.count }}
             </td>
         </tr>
         {% endfor %}
