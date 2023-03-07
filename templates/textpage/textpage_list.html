@@ -8,6 +8,7 @@
             <th>번호</th>
             <th>제목</th>
             <th>작성일시</th>
+            <th>추천수</th>
         </tr>
         </thead>
         <tbody>
@@ -29,6 +30,7 @@
             <td>
                 {{ question.create_date }}
             </td>
+            <td>{{ question.goodvote }} - {{ question.badvote }}</td>
         </tr>
         {% endfor %}
         {% else %}
