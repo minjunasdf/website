@@ -32,7 +32,7 @@
             </td>
             <td>
                 <div class="progress">
-                    <div class="progress-bar" aria-valuenow={{ question.goodvote.count }} aria-valuemin="0" aria-valuemax={% {{ question.goodvote.count }} + {{ question.badvote.count }} %}>{{ question.goodvote.count }}</div>
+                    <div class="progress-bar" aria-valuenow={{ question.goodvote.count }} aria-valuemin="0" aria-valuemax={{ question.goodvote.count }} + {{ question.badvote.count }}>{{ question.goodvote.count }}</div>
                     <div class="progress-bar bg-danger" aria-valuenow={{ question.badvote.count }} aria-valuemin={{ question.goodvote.count }}>{{ question.badvote.count }}</div>
                 </div>
             </td>
