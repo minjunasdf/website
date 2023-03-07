@@ -30,7 +30,9 @@
             <td>
                 {{ question.create_date }}
             </td>
-            <td>{{ question.goodvote }} - {{ question.badvote }}</td>
+            <td>
+                {{ question.goodvote_set.count }} - {{ question.badvote_set.count }}
+            </td>
         </tr>
         {% endfor %}
         {% else %}
